@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Random randomNumberGenerator = new Random();
-                int number = randomNumberGenerator.nextInt(6);
+                int number = randomNumberGenerator.nextInt(5);
                 ballDisplay.setImageResource(ballArray[number]);
             }
         });
